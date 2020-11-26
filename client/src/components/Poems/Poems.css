@@ -1,0 +1,23 @@
+.Poems-title {
+    list-style: none;
+    padding: 0.5%;
+}
+
+.Poems-li {
+    list-style: none;
+    margin: 0.5%;
+}
+
+.Poems-nav-btn {
+    border: none;
+    color: #7C9EB2;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Poems-nav-btn:hover {
+    color: #52528C;
+}
+
+.Poems-nav-btn:focus {
+    outline: none;
+}

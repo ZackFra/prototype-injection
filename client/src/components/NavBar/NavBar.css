@@ -1,0 +1,80 @@
+.NavBar-wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 25vw;
+    left: -25vw;
+    top: 0;
+    background-color: #274C77;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.NavBar-wrapper-enter {
+    left: -25vw;
+}
+
+.NavBar-wrapper-enter-active {
+    left: 0vw;
+    transition: left 400ms ease-in;
+}
+
+.NavBar-wrapper-enter-done {
+    left: 0vw;
+}
+
+.NavBar-wrapper-exit {
+    left: 0vw;
+}
+
+.NavBar-wrapper-exit-active {
+    left: -25vw;
+    transition: left 400ms ease-out;
+}
+
+.NavBar-wrapper-exit-done {
+    left: -25vw;
+}
+
+.NavBar-menu-btn {
+    border: 0;
+    position: fixed;
+    left: 0.5vw;
+    top: 0.5vh;
+    width: 6vw;
+    height: 6vh;
+    font-size: 2rem;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.9;
+}
+
+.NavBar-menu-btn:focus {
+    outline: none;
+}
+
+.NavBar-menu-btn:hover {
+    cursor: pointer;
+}
+
+.NavBar-menu-outline {
+    color: #37323E;
+}
+
+.NavBar-links {
+    padding-top: 10vh;
+    color: white;
+    list-style: none;
+}
+
+.NavBar-link {
+    margin: 1rem;
+}
+
+.NavBar-a {
+    color: #D8E4FF;
+}
+
+.NavBar-a:hover {
+    text-decoration: none;
+    color: #6E8387;
+}
